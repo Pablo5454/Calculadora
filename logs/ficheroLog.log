@@ -1,15 +1,30 @@
+<HTML>
+ <BODY> 
+<P>
+Suma correcta.
+</P>
+ </BODY>
+</HTML>
+<HTML>
+ <BODY> 
+<P>
+Suma correcta.
+</P>
+ </BODY>
+</HTML>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2024-01-31T12:56:27.872980900Z</date>
-  <millis>1706705787872</millis>
-  <nanos>980900</nanos>
+  <date>2024-02-01T11:55:03.247503Z</date>
+  <millis>1706788503247</millis>
+  <nanos>503000</nanos>
   <sequence>0</sequence>
   <logger>LOG1</logger>
-  <level>WARNING</level>
+  <level>FINE</level>
   <class>principal.Calculadora</class>
   <method>main</method>
   <thread>1</thread>
-  <message>Intento de dividir por cero</message>
+  <message>Multiplicación correcta.</message>
 </record>
+</log>
