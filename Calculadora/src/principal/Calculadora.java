@@ -5,7 +5,7 @@ import operaciones.Operaciones;
 public class Calculadora{
     
 	/**
-	 * Importa el menu y las operaciones de las clases "Operaciones" y "Menu".
+	 * Importa el menu y las operaciones de las clases "Operaciones" y "Menu" prueba.
 	 * @see operaciones.Operaciones
 	 * @see menu.Menu
 	 */
