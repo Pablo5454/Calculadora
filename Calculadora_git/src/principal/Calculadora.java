@@ -50,6 +50,7 @@ public class Calculadora {
 		consoleHandler.setLevel(Level.ALL);
 		fileHandler.setFormatter(new formatoHTML());
 		
+		
 		Menu menu = new Menu();
 		Operaciones operaciones = new Operaciones();
 
