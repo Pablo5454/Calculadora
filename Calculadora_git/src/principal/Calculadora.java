@@ -61,7 +61,7 @@ public class Calculadora {
 			if (operacion.equalsIgnoreCase("+")) {
 				resultado = operaciones.sumar(operandos[0], operandos[1]);
 				System.out.println("Resultado: " + resultado);
-				LOGGER.log(Level.FINE, "Suma correcta");
+				LOGGER.log(Level.INFO, "+" + "," + operandos[0] + "," + operandos[1] + "," + resultado);
 				
 			} else if (operacion.equalsIgnoreCase("-")) {
 				resultado = operaciones.restar(operandos[0], operandos[1]);

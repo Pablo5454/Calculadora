@@ -7,8 +7,23 @@ import java.util.logging.LogRecord;
 public class formatoHTML extends Formatter {
 	@Override
 	public String format(LogRecord record) {
-		return "<tr>\n" + "<td>\n" + record.getMessage() + "\n</td>\n" + "<td>\n" + record.getMessage() + "\n</td>\n" + 
-				"<td>\n" + record.getMessage() + "\n</td>\n" + "<td>\n" + record.getMessage() + "\n</td>\n" + "</tr>\n";
+		String mensaje = record.getMessage();
+		System.out.println("Mensaje del registro: " + mensaje);
+//		String[] celdas = new String [4];
+		String[] celdas = new String[4];
+		String[] aux = mensaje.split(",");
+		for (int i = 0; i < celdas.length; i++) {
+			
+			celdas[i]= aux[i];
+		}
+		
+		String operacion = celdas[0];
+		String operando1 = celdas[1];
+		String operando2 = celdas[2];
+		String resultado = celdas[3];
+		
+		return "<tr>\n" + "<td>\n" + operacion + "\n</td>\n" + "<td>\n" + operando1 + "\n</td>\n" + 
+				"<td>\n" + operando2 + "\n</td>\n" + "<td>\n" + resultado + "\n</td>\n" + "</tr>\n";
 				
 	}
 
