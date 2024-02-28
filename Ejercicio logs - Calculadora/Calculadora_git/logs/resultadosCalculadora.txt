@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-02-28T18:56:20.864704100Z</date>
+  <millis>1709146580864</millis>
+  <nanos>704100</nanos>
+  <sequence>0</sequence>
+  <logger>LOG1</logger>
+  <level>INFO</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SUMA CORRECTA</message>
+</record>
+</log>
